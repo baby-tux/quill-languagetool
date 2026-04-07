@@ -112,7 +112,7 @@ export class QuillLanguageTool {
     const params = this.getApiParams();
 
     try {
-      const response = await fetch(this.params.server + "/check", {
+      const response = await fetch(this.params.server, {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",

@@ -79,7 +79,7 @@ const quill = new Quill("#editor", {
 
 Available options are:
 
-- `server` (default `"https://languagetool.org/api/v2"`): The URL of the LanguageTool server without `/check`
+- `server` (default `"https://languagetool.org/api/v2/check"`): The URL of the LanguageTool server
 - `language` (default `"en-US"`): The language to use for the LanguageTool server
 - `disableNativeSpellcheck` (default `true`): Disable the native spellchecker on the editor to prevent two conflicting systems trying to underline the same words
 - `cooldownTime` (default `3000`): The time after a user stops typing before the LanguageTool server is queried
